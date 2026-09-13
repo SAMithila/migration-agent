@@ -29,8 +29,6 @@ The failure modes at the Docker stage:
 
 Dominant install failures were unresolvable dependency conflicts and build failures on pinned transitive dependencies (`numpy` wheels that no longer build on Python 3.11/ARM64, `poetry-core` version constraints, undeclared runtime dependencies like `msgpack`).
 
-**Implication:** for corpus construction, a visible passing CI badge is a far stronger signal than any keyword query. Hand-curation of 20 repos would likely outperform the 886 candidates screened here.
-
 ---
 
 ## Verified corpus
